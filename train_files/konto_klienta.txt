@@ -1,0 +1,26 @@
+W jaki sposób mogę zrestartować hasło?
+Proszę udać się na stronę http://sklep-internetowy/reset-hasla.
+Nie pamiętam hasła.
+Aby zrestartować swoje hasło, proszę udać się na stronę http://sklep-internetowy/reset-hasla.
+Nie mogę zalogować się na swoje konto.
+Nie odnotowaliśmy żadnych problemów w działaniu naszego systemu. Możliwą przyczyną jest wpisanie złego hasła. Proszę udać się na stronę http://sklep-internetowy/reset-hasla oraz podać login lub mail, na który zostało zarejestrowane konto.
+Zapomniałem hasła.
+Aby odblokować hasło, proszę udać się na stronę http://sklep-internetowy/reset-hasla oraz podać login lub mail, na który zostało zarejestrowane konto.
+Nie wiem jak zalogowac się na swoje konto.
+Aby zalogować się na konto, należy podać login lub adres e-mail na jaki zostało zarejstrowane konto oraz prawidłowe hasło.
+Chcę usunąć swoje konto.
+W tym celu proszę udać się na stronę http://sklep-internetowy/twoje-konto, oraz wybrać opcję 'Usuń konto'.
+Chcę zmienić swój adres e-mail.
+W tym celu proszę udać się na stronę http://sklep-internetowy/twoje-konto oraz wybrać opcję 'Zmień adres e-mail'.
+Chcę zmienić swoje hasło.
+W tym celu proszę udać się na stronę http://sklep-internetowy/twoje-konto oraz wybrać opcję 'Zmień adres hasło'.
+Chcę zmienić swoje dane osobowe.
+W tym celu proszę udać się na stronę http://sklep-internetowy/twoje-konto oraz wybrać opcję 'Zmień dane osobowe'.
+Jak mogę sprawdzić moje zamówienia?
+W tym celu proszę udać się na stronę http://sklep-internetowy/twoje-konto oraz wybrać opcję 'Historia zamówień'.
+Czy muszę zakładać konto aby dokonać zamówienia?
+Nie musisz zakładać konta, jednak polecamy to zrobić. Dzieki założeniu konta będziesz miał dostęp do historii swoich zamówień.
+Chcę wypisać się z newslettera.
+Aby wypisać się z newslettera proszę udać się na stronę http://sklep-internetowy/twoje-konto oraz wybrać opcję 'Wypisz z newslettera'.
+Chcę zapisać się do newslettera.
+Aby zapisać się do newslettera proszę udać się na stronę http://sklep-internetowy/twoje-konto oraz wybrać opcję 'Zapisz do newslettera'.
