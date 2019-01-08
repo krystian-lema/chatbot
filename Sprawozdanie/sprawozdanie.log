@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.12.11)  8 JAN 2019 10:02
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.12.11)  8 JAN 2019 17:06
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1429,6 +1429,11 @@ Overfull \vbox (0.89998pt too high) has occurred while \output is active []
 \openout2 = `rozdzial01.aux'.
 
  (./rozdzial01.tex
+LaTeX Font Info:    Try loading font information for TS1+qtm on input line 9.
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/tex-gyre/ts1qtm.fd
+File: ts1qtm.fd 2009/09/25 v1.2 font definition file for TS1/qtm
+)
 Overfull \vbox (0.89998pt too high) has occurred while \output is active []
 
 
@@ -1459,7 +1464,12 @@ Underfull \hbox (badness 3219) in paragraph at lines 4--6
 o ma-na-gera pa-czek do Py-
  []
 
-)
+<rys/rys02/1.png, id=138, 774.895pt x 274.02374pt>
+File: rys/rys02/1.png Graphic file (type png)
+ <use rys/rys02/1.png>
+Package pdftex.def Info: rys/rys02/1.png used on input line 24.
+(pdftex.def)             Requested size: 409.49722pt x 144.80959pt.
+
 Overfull \vbox (0.89998pt too high) has occurred while \output is active []
 
 
@@ -1467,14 +1477,54 @@ Overfull \vbox (0.89998pt too high) has occurred while \output is active []
 
 
 
-]
+] <rys/rys02/2.png, id=145, 458.71375pt x 78.2925pt>
+File: rys/rys02/2.png Graphic file (type png)
+ <use rys/rys02/2.png>
+Package pdftex.def Info: rys/rys02/2.png used on input line 48.
+(pdftex.def)             Requested size: 318.49861pt x 54.36354pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 57--59
+
+ []
+
+
+Overfull \vbox (0.89998pt too high) has occurred while \output is active []
+
+
+[6 <./rys/rys02/1.png> <./rys/rys02/2.png>]
+<rys/rys02/3.png, id=156, 585.18625pt x 682.55pt>
+File: rys/rys02/3.png Graphic file (type png)
+ <use rys/rys02/3.png>
+Package pdftex.def Info: rys/rys02/3.png used on input line 80.
+(pdftex.def)             Requested size: 409.49722pt x 477.64635pt.
+
+Overfull \vbox (0.89998pt too high) has occurred while \output is active []
+
+
+[7 <./rys/rys02/3.png>] <rys/rys02/4.png, id=164, 660.4675pt x 334.24875pt>
+File: rys/rys02/4.png Graphic file (type png)
+
+<use rys/rys02/4.png>
+Package pdftex.def Info: rys/rys02/4.png used on input line 93.
+(pdftex.def)             Requested size: 409.49722pt x 207.24228pt.
+ <rys/rys02/5.png, id=165, 780.9175pt x 262.9825pt>
+File: rys/rys02/5.png Graphic file (type png)
+
+<use rys/rys02/5.png>
+Package pdftex.def Info: rys/rys02/5.png used on input line 103.
+(pdftex.def)             Requested size: 409.49722pt x 137.90334pt.
+)
+Overfull \vbox (0.89998pt too high) has occurred while \output is active []
+
+
+[8 <./rys/rys02/4.png> <./rys/rys02/5.png>]
 \openout2 = `rozdzial03.aux'.
 
  (./rozdzial03.tex)
 Overfull \vbox (0.89998pt too high) has occurred while \output is active []
 
 
-[6
+[9
 
 
 
@@ -1485,7 +1535,7 @@ Overfull \vbox (0.89998pt too high) has occurred while \output is active []
 Overfull \vbox (0.89998pt too high) has occurred while \output is active []
 
 
-[7
+[10
 
 
 
@@ -1498,7 +1548,7 @@ bibitemlist
 Overfull \vbox (0.89998pt too high) has occurred while \output is active []
 
 
-[8
+[11
 
 
 
@@ -1523,24 +1573,30 @@ Package rerunfilecheck Info: File `sprawozdanie.out' has not changed.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 335.
  ) 
 Here is how much of TeX's memory you used:
- 15855 strings out of 493014
- 224796 string characters out of 6133350
- 349804 words of memory out of 5000000
- 19120 multiletter control sequences out of 15000+600000
- 75227 words of font info for 52 fonts, out of 8000000 for 9000
+ 15923 strings out of 493014
+ 225800 string characters out of 6133350
+ 350176 words of memory out of 5000000
+ 19174 multiletter control sequences out of 15000+600000
+ 75603 words of font info for 53 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 40i,12n,37p,450b,376s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/tex-gyre/q-ec.enc}{/usr/l
-ocal/texlive/2016/texmf-dist/fonts/enc/dvips/ebgaramond/ebgm_iymieh.enc}</usr/l
-ocal/texlive/2016/texmf-dist/fonts/type1/public/ebgaramond/EBGaramond12-Regular
-.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/tex-gyre/qtmb.pfb><
-/usr/local/texlive/2016/texmf-dist/fonts/type1/public/tex-gyre/qtmr.pfb></usr/l
-ocal/texlive/2016/texmf-dist/fonts/type1/public/tex-gyre/qtmri.pfb></usr/local/
-texlive/2016/texmf-dist/fonts/type1/public/txfonts/t1xtt.pfb>
-Output written on sprawozdanie.pdf (8 pages, 157201 bytes).
+ 40i,12n,37p,801b,376s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/lo
+cal/texlive/2016/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/local/texliv
+e/2016/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc}{/usr/local/texlive/2016/texmf-d
+ist/fonts/enc/dvips/tex-gyre/q-ec.enc}{/usr/local/texlive/2016/texmf-dist/fonts
+/enc/dvips/tex-gyre/q-ts1.enc}{/usr/local/texlive/2016/texmf-dist/fonts/enc/dvi
+ps/ebgaramond/ebgm_iymieh.enc}</usr/local/texlive/2016/texmf-dist/fonts/type1/p
+ublic/ebgaramond/EBGaramond12-Regular.pfb></usr/local/texlive/2016/texmf-dist/f
+onts/type1/public/lm/lmmi12.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1
+/public/lm/lmr12.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/lm/
+lmsy10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/tex-gyre/qtmb
+.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/tex-gyre/qtmr.pfb><
+/usr/local/texlive/2016/texmf-dist/fonts/type1/public/tex-gyre/qtmri.pfb></usr/
+local/texlive/2016/texmf-dist/fonts/type1/public/txfonts/t1xtt.pfb>
+Output written on sprawozdanie.pdf (11 pages, 401615 bytes).
 PDF statistics:
- 199 PDF objects out of 1000 (max. 8388607)
- 182 compressed objects within 2 object streams
- 48 named destinations out of 1000 (max. 500000)
- 169 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 240 PDF objects out of 1000 (max. 8388607)
+ 206 compressed objects within 3 object streams
+ 49 named destinations out of 1000 (max. 500000)
+ 194 words of extra memory for PDF output out of 10000 (max. 10000000)
 

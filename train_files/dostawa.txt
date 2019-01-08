@@ -21,7 +21,7 @@ Przesyłkę możesz śledzić za pomocą kodu śledzącego, który otrzymałeś 
 Kiedy otrzymam przesyłkę?
 W przypadku Poczty Polskiej czas doręczenia to 72h od momentu nadania, Kurier - 48h, Paczkomat - 24h. Aktualny status przesyłki możesz sprawdzić za pomocą kodu śledzącego, który otrzymałeś w mailu z potwierdzeniem nadania przesyłki.
 Jak odebrać przesyłkę z Paczkomatu?
-Dokładną instrukcję znajdziesz w mailu z potwerdzeniem nadania wysyłki.
+Dokładną instrukcję znajdziesz w mailu z potwierdzeniem nadania wysyłki.
 Czy przesyłka jest ubezpieczona?
 Tak, wszystkie przesyłki są ubezpieczona.
 Moja przesyłka jest uszkodzona.

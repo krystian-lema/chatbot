@@ -8,14 +8,14 @@
 \contentsline {section}{\numberline {2.1}Konfiguracja \IeC {\'s}rodowiska}{5}{section.2.1}
 \contentsline {section}{\numberline {2.2}Konfiguracja biblioteki ChatterBot}{5}{section.2.2}
 \contentsline {section}{\numberline {2.3}Implementacja chatbota}{5}{section.2.3}
-\contentsline {subsection}{\numberline {2.3.1}Uczenie}{5}{subsection.2.3.1}
-\contentsline {subsection}{\numberline {2.3.2}Baza wiedzy}{5}{subsection.2.3.2}
-\contentsline {subsection}{\numberline {2.3.3}Dialog bota z u\IeC {\.z}ytkownikiem}{5}{subsection.2.3.3}
-\contentsline {chapter}{\chapternumberline {3}Testowanie}{6}{chapter.3}
-\contentsline {section}{\numberline {3.1}Podstawowe testy dialogowe}{6}{section.3.1}
-\contentsline {section}{\numberline {3.2}Testy zestaw\IeC {\'o}w pyta\IeC {\'n}}{6}{section.3.2}
-\contentsline {section}{\numberline {3.3}Zwi\IeC {\k e}kszanie efektywno\IeC {\'s}ci bota poprzez zwi\IeC {\k e}kszenie bazy wiedzy}{6}{section.3.3}
-\contentsline {chapter}{\chapternumberline {4}Wnioski}{7}{chapter.4}
-\contentsline {section}{\numberline {4.1}Og\IeC {\'o}lne wnioski na temat dzia\IeC {\l }ania chatbota}{7}{section.4.1}
-\contentsline {section}{\numberline {4.2}Wp\IeC {\l }yw bazy wiedzy na skuteczno\IeC {\'s}\IeC {\'c} dzia\IeC {\l }ania}{7}{section.4.2}
-\contentsline {chapter}{Literatura}{8}{section*.2}
+\contentsline {subsection}{\numberline {2.3.1}Uczenie}{6}{subsection.2.3.1}
+\contentsline {subsection}{\numberline {2.3.2}Baza wiedzy}{7}{subsection.2.3.2}
+\contentsline {subsection}{\numberline {2.3.3}Dialog bota z u\IeC {\.z}ytkownikiem}{8}{subsection.2.3.3}
+\contentsline {chapter}{\chapternumberline {3}Testowanie}{9}{chapter.3}
+\contentsline {section}{\numberline {3.1}Podstawowe testy dialogowe}{9}{section.3.1}
+\contentsline {section}{\numberline {3.2}Testy zestaw\IeC {\'o}w pyta\IeC {\'n}}{9}{section.3.2}
+\contentsline {section}{\numberline {3.3}Zwi\IeC {\k e}kszanie efektywno\IeC {\'s}ci bota poprzez zwi\IeC {\k e}kszenie bazy wiedzy}{9}{section.3.3}
+\contentsline {chapter}{\chapternumberline {4}Wnioski}{10}{chapter.4}
+\contentsline {section}{\numberline {4.1}Og\IeC {\'o}lne wnioski na temat dzia\IeC {\l }ania chatbota}{10}{section.4.1}
+\contentsline {section}{\numberline {4.2}Wp\IeC {\l }yw bazy wiedzy na skuteczno\IeC {\'s}\IeC {\'c} dzia\IeC {\l }ania}{10}{section.4.2}
+\contentsline {chapter}{Literatura}{11}{section*.2}

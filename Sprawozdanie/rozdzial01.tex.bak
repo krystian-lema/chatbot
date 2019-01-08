@@ -5,7 +5,7 @@ Celem projektu jest stworzenie chatbota, którego zadaniem jest wsparcie klienta
 
 \section{Założenia projektowe}
 Chatbot ma za zadanie pomagać klientom w następujących tematach:
-\begin{enumerate}
+\begin{itemize}
 \item Obsługa konta użytkownika (zmiana hasła, przypomnienie hasła, bezpieczeństwo danych)
 \item Dostawa (czas, koszt, rodzaje)
 \item Zasady zwrotów (ile czasu na zwrot, koszt zwrotu, sposób)
@@ -13,10 +13,12 @@ Chatbot ma za zadanie pomagać klientom w następujących tematach:
 \item Śledzenie statusu zamówienia
 \item Zasady reklamacji
 \item Aktualne promocje
-\end{enumerate}
+\end{itemize}
 
 \section{Użyte technologie}
 Chatbot został napisany w języku programowania Python z użyciem biblioteki dedykowanej do tworzenia chatbotów ChatterBot. ChatterBot to silnik do tworzenia dialogów, który używa bazy wiedzy w postaci plików tekstowych oraz uczenia maszynowego do zwiększenia skuteczności znajdywania odpowiednich odpowiedzi.
+
+\newpage
 
 \section{Zasada działania chatbota}
 Schemat działania:
