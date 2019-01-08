@@ -1,0 +1,34 @@
+\chapter{Wstęp}
+
+\section{Cel projektu}
+Celem projektu jest stworzenie chatbota, którego zadaniem jest wsparcie klienta w sklepie internetowym ze sprzętem komputerowym. Komunikacja ma odbywać się w trybie tekstowym. Zadaniem chatbota jest rozpoznanie pytania zadanego przez klienta sklepu internetowego oraz znalezienie odpowiedzi w bazie wiedzy. Wykorzystano również technikę uczenia maszynowego do poprawienia skuteczności chatbota.
+
+\section{Założenia projektowe}
+Chatbot ma za zadanie pomagać klientom w następujących tematach:
+\begin{enumerate}
+\item Obsługa konta użytkownika (zmiana hasła, przypomnienie hasła, bezpieczeństwo danych)
+\item Dostawa (czas, koszt, rodzaje)
+\item Zasady zwrotów (ile czasu na zwrot, koszt zwrotu, sposób)
+\item Dostępne metody płatności
+\item Śledzenie statusu zamówienia
+\item Zasady reklamacji
+\item Aktualne promocje
+\end{enumerate}
+
+\section{Użyte technologie}
+Chatbot został napisany w języku programowania Python z użyciem biblioteki dedykowanej do tworzenia chatbotów ChatterBot. ChatterBot to silnik do tworzenia dialogów, który używa bazy wiedzy w postaci plików tekstowych oraz uczenia maszynowego do zwiększenia skuteczności znajdywania odpowiednich odpowiedzi.
+
+\newpage
+
+\section{Zasada działania chatbota}
+Schemat działania:
+\begin{enumerate}
+\item Odczytanie danych
+\item Przetwarzanie surowego tekstu
+\item Tokenizacja tekstu
+\item Usunięcie zbędnych znaków
+\item Usunięcie mało znaczących słów
+\item Sprowadzenie słów do podstawowych form (lematyzacja)
+\item Parsowanie zależności
+\item Generowanie odpowiedzi na podstawie bazy wiedzy
+\end{enumerate}

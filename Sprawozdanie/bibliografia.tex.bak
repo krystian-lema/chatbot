@@ -1,0 +1,77 @@
+\renewcommand{\bibname}{Literatura}
+\begin{thebibliography}{9}
+
+\bibitem{ruby-info}
+Jason Zamidars.
+\textit{O języku Ruby}
+\\\texttt{https://www.ruby-lang.org/pl/about/}\\dostęp: 24.11.2017
+
+\bibitem{rails-info}
+\textit{Ruby on Rails}
+\\\texttt{http://rubyonrails.org/}\\dostęp: 24.11.2017
+
+\bibitem{unity-info}
+Unity Technologies.
+\textit{Unity Features}
+\\\texttt{https://unity3d.com/unity}\\dostęp: 24.11.2017
+
+\bibitem{mobile-game-development}
+Roman Katerinchik.
+\textit{Mobile Game Development in 2017: Best Tools and Advice.}
+%\texttt{https://artjoker.net/blog/mobile-game-development-in-2017-best-tools-and-advice/}\\dostęp: 24.11.2017
+\texttt{https://artjoker.net/blog/}\\dostęp: 24.11.2017
+
+\bibitem{csharp-info}
+Adam Boduch.
+\textit{C\#}
+\\\texttt{https://4programmers.net/C\_sharp}\\dostęp: 24.11.2017
+
+\bibitem{technology}
+Stackoverflow.
+\textit{Developer Survey Results 2017} 
+\\\texttt{https://insights.stackoverflow.com/survey/2017\#{}technology}\\dostęp: 24.11.2017
+
+\bibitem{ruby-documentation} 
+James Britt and Neurogami.
+\textit{API documentation for Ruby 2.3.0.}
+\\\texttt{https://ruby-doc.org/core-2.3.0/}\\dostęp: 24.11.2017
+
+\bibitem{rails-documentation} 
+\textit{Ruby on Rails Guides}
+\\\texttt{http://guides.rubyonrails.org/}\\dostęp: 24.11.2017
+
+\bibitem{unity-documentation} 
+Unity Technologies.
+\textit{Unity Scripting Reference}
+\\\texttt{https://docs.unity3d.com/ScriptReference/}\\dostęp: 24.11.2017
+
+\bibitem{unity-book1} 
+Matt Smith, Chico Queiroz.
+\textit{Unity 5.x Cookbook}. 
+2015 Packt Publishing
+
+\bibitem{unity-book2} 
+Greg Lukosek.
+\textit{Learning C\# by Developing Games with Unity 5.x Second Edition}. 
+\\2016 Packt Publishing
+
+\bibitem{unity-book3} 
+Dr. Edward Lavieri.
+\textit{Getting Started with Unity 5}. 
+2015 Packt Publishing
+
+\bibitem{uczenie} 
+Radek Kotarski.
+\textit{Włam się do mózgu}. 
+Warszawa 2017
+
+\end{thebibliography}
+
+
+
+%Dokumentacja Ruby: https://ruby-doc.org/core-2.3.0/ - by James Britt and Neurogami.
+%Dokumentacja Rails: http://guides.rubyonrails.org/
+%Dokumentacja Unity: https://docs.unity3d.com/ScriptReference/ - Copyright © 2017 Unity Technologies. Publication: 2017.2-001S. Built: 2017-11-10. 
+%Unity 5.x Cookbook - Matt Smith, Chico Queiroz
+%Learning C# by Developing Games with Unity 5.x - Second Edition - Greg Lukosek
+%Getting Started with Unity 5 - Dr. Edward Lavieri

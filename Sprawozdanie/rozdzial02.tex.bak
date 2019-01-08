@@ -1,0 +1,24 @@
+\chapter{Implementacja}
+
+\section{Konfiguracja środowiska}
+Do stworzenia bota użyto języka Python w wersji 3. W tym celu zainstalowano najnowszą wersję, którą można znaleźć na oficjalnej stronie: \texttt{https://www.python.org/}.
+Aby ułatwić pracę w środowisku, dodatkowo zainstalowano managera paczek do Python’a - PIP. Instrukcje dotyczące manualnej instalacji można znaleźć na oficjalnej stronie: \texttt{https://pypi.org/project/pip/}.
+
+\section{Konfiguracja biblioteki ChatterBot}
+Instalacja biblioteki ChatterBot jest bardzo prosta przy użyciu PIP. Całą bibliotekę można zainstalować jedną komendą:
+\begin{center}
+pip install chatterbot
+\end{center}
+
+Zainstalowaną bibliotekę można sprawdzić przy pomocy komendy:
+\begin{center}
+python -m chatterbot --version
+\end{center}
+
+Terminal powinien zwrócić aktualną wersję.
+
+\section{Implementacja chatbota}
+
+\subsection{Uczenie}
+\subsection{Baza wiedzy}
+\subsection{Dialog bota z użytkownikiem}

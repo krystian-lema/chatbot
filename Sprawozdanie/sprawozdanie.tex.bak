@@ -1,0 +1,335 @@
+\documentclass[a4paper,onecolumn,oneside,12pt,extrafontsizes]{memoir}
+
+\usepackage[utf8]{inputenc} % jeśli kodowanie edytowanych plików to UTF8
+\usepackage[T1]{fontenc}
+\usepackage[polish]{babel}
+%\DisemulatePackage{setspace}
+\usepackage{setspace}
+\usepackage{tabularx}
+\usepackage{color,calc}
+%\usepackage{soul} % pakiet z komendami do podkreślania tekstu
+
+\usepackage{ebgaramond} % pakiet z czcionkami garamond, potrzebny tylko do strony tytułowej, musi wystąpić przed pakietem tgtermes
+
+
+\usepackage{tgtermes}   
+\renewcommand*\ttdefault{txtt}
+
+\usepackage{listings}
+
+\clubpenalty=10000      %kara za sierotki
+\widowpenalty=10000  % nie pozostawiaj wdów
+\brokenpenalty=10000		% nie dziel wyrazów między stronami
+\exhyphenpenalty=999999		% nie dziel słów z myślnikiem
+\righthyphenmin=3			% dziel minimum 3 litery
+
+%\tolerance=4500
+%\pretolerance=250
+%\hfuzz=1.5pt
+%\hbadness=1450
+
+\renewcommand{\topfraction}{0.95}
+\renewcommand{\bottomfraction}{0.95}
+\renewcommand{\textfraction}{0.05}
+\renewcommand{\floatpagefraction}{0.35}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%  Ustawienia rozmiarów: tekstu, nagłówka i stopki, marginesów
+%%  dla dokumentów klasy memoir 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\setlength{\headsep}{10pt} 
+\setlength{\headheight}{13.6pt} % wartość baselineskip dla czcionki 11pt tj. \small wynosi 13.6pt
+\setlength{\footskip}{\headsep+\headheight}
+\setlength{\uppermargin}{\headheight+\headsep+1cm}
+\setlength{\textheight}{\paperheight-\uppermargin-\footskip-1.5cm}
+\setlength{\textwidth}{\paperwidth-5cm}
+\setlength{\spinemargin}{2.5cm}
+\setlength{\foremargin}{2.5cm}
+\setlength{\marginparsep}{2mm}
+\setlength{\marginparwidth}{2.3mm}
+%\settrimmedsize{297mm}{210mm}{*}
+%\settrims{0mm}{0mm}	
+\checkandfixthelayout[fixed] % konieczne, aby się dobrze wszystko poustawiało
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%  Ustawienia odległości linii, wcięć, odstępów
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\linespread{1}
+%\linespread{1.241}
+\setlength{\parindent}{14.5pt}
+
+\usepackage{memlays} 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%                  
+%% Definicje stopek i nagłówków
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%                  
+\addtopsmarks{headings}{%
+\nouppercaseheads % added at the beginning
+}{%
+\createmark{chapter}{both}{shownumber}{}{. \space}
+%\createmark{chapter}{left}{shownumber}{}{. \space}
+\createmark{section}{right}{shownumber}{}{. \space}
+}%use the new settings
+
+\makeatletter
+\copypagestyle{outer}{headings}
+\makeoddhead{outer}{}{}{\small\itshape\rightmark}
+\makeevenhead{outer}{\small\itshape\leftmark}{}{}
+\makeevenfoot{outer}{\small\thepage}{}{\small\@author:~\@title}
+\makeheadrule{outer}{\linewidth}{\normalrulethickness}
+\makefootrule{outer}{\linewidth}{\normalrulethickness}{2pt}
+\makeatother
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%  Pakiet do generowania indeksu (ważne, aby wstawić przed hyperref)
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\DisemulatePackage{imakeidx}
+\usepackage[makeindex,noautomatic]{imakeidx} % tutaj mówimy, żeby indeks nie generował się automatycznie, 
+
+%\usepackage[noautomatic]{imakeidx} 
+\makeindex
+
+\makeatletter
+%%%\renewenvironment{theindex}
+							 %%%{\vskip 10pt\@makeschapterhead{\indexname}\vskip -3pt%
+								%%%\@mkboth{\MakeUppercase\indexname}%
+												%%%{\MakeUppercase\indexname}%
+								%%%\vspace{-3.2mm}\parindent\z@%
+								%%%\renewcommand\subitem{\par\hangindent 16\p@ \hspace*{0\p@}}%%
+								%%%\phantomsection%
+								%%%\begin{multicols}{2}
+								%%%%\thispagestyle{plain}
+								%%%\parindent\z@                
+								%%%%\parskip\z@ \@plus .3\p@\relax
+								%%%\let\item\@idxitem}
+							 %%%{\end{multicols}\clearpage}
+%%%
+\makeatother
+
+\usepackage{ifpdf}
+%\newif\ifpdf \ifx\pdfoutput\undefined
+%\pdffalse % we are not running PDFLaTeX
+%\else
+%\pdfoutput=1 % we are running PDFLaTeX
+%\pdftrue \fi
+\ifpdf
+ \usepackage[pdftex,bookmarks,breaklinks,unicode]{hyperref}
+ \usepackage[pdftex]{graphicx}
+ \DeclareGraphicsExtensions{.pdf,.jpg,.mps,.png}
+\pdfcompresslevel=9
+\pdfoutput=1
+\makeatletter
+\AtBeginDocument{
+  \hypersetup{
+	pdfinfo={
+    Title = {\@title},
+    Author = {\@author},
+    Subject={},
+    Keywords={słowa kluczowe},
+  }}
+}
+\makeatother
+\else
+\usepackage{graphicx}
+\DeclareGraphicsExtensions{.eps,.ps,.jpg,.mps,.png}
+\fi
+\sloppy
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Metadane dla pdfa
+
+% Deklaracja głębokościu numeracji
+\setcounter{secnumdepth}{2}
+\setcounter{tocdepth}{2}
+\setsecnumdepth{subsection} % activating subsubsec numbering in doc
+
+% Kropki po numerach sekcji
+\makeatletter
+\def\@seccntformat#1{\csname the#1\endcsname.\quad}
+\def\numberline#1{\hb@xt@\@tempdima{#1\if&#1&\else.\fi\hfil}}
+\makeatother
+
+\renewcommand{\chapternumberline}[1]{#1.\quad}
+\renewcommand{\cftchapterdotsep}{\cftdotsep}
+
+%\definecolor{niceblue}{rgb}{.168,.234,.671}
+
+% Czcionka do podpisów tabel i rysunków
+\captionnamefont{\small}
+\captiontitlefont{\small}
+
+% Przedefiniowanie etykiet w podpisach tabel i rysunków
+%\AtBeginDocument{% 
+        \addto\captionspolish{% 
+        \renewcommand{\tablename}{Tab.}% 
+}%} 
+
+%\AtBeginDocument{% 
+%        \addto\captionspolish{% 
+%        \renewcommand{\chaptername}{Rozdział}% 
+%}} 
+
+%\AtBeginDocument{% 
+        \addto\captionspolish{% 
+        \renewcommand{\figurename}{Rys.}% 
+}%}
+
+
+%\AtBeginDocument{% 
+        \addto\captionspolish{% 
+        \renewcommand{\bibname}{Literatura}% 
+}%}
+
+%\AtBeginDocument{% 
+        \addto\captionspolish{% 
+        \renewcommand{\listfigurename}{Spis rysunków}% 
+}%}
+
+%\AtBeginDocument{% 
+        \addto\captionspolish{% 
+        \renewcommand{\listtablename}{Spis tabel}% 
+}%}
+
+%\AtBeginDocument{% 
+        \addto\captionspolish{% 
+\renewcommand\indexname{Indeks rzeczowy}
+}%}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Definicja strony tytułowej 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\makeatletter
+%Uczelnia
+\newcommand\uczelnia[1]{\renewcommand\@uczelnia{#1}}
+\newcommand\@uczelnia{}
+%Wydzial
+\newcommand\wydzial[1]{\renewcommand\@wydzial{#1}}
+\newcommand\@wydzial{}
+
+%Prowadzacy
+\newcommand\prowadzacy[1]{\renewcommand\@prowadzacy{#1}}
+\newcommand\@prowadzacy{}
+
+%Autorzy
+\newcommand\authorOne[1]{\renewcommand\@authorOne{#1}}
+\newcommand\@authorOne{}
+\newcommand\authorTwo[1]{\renewcommand\@authorTwo{#1}}
+\newcommand\@authorTwo{}
+
+\def\maketitle{%
+  \pagestyle{empty}%
+	\fontfamily{\ebgaramond@family}\selectfont % na stronie tytułowej czcionka garamond
+
+%\setlength{\fboxrule}{\tmpfboxrule} 
+
+	{\centering%\vspace{-1cm}
+		{\fontsize{22pt}{24pt}\selectfont \@uczelnia}\\[0.4cm]
+		{\fontsize{22pt}{24pt}\selectfont \@wydzial}\\[0.5cm]
+		  \hrule \vspace{0.05cm} \hrule 
+	}
+	
+\vspace{2cm}
+
+{\centering
+{\fontsize{24pt}{26pt}\selectfont Projektowanie systemów z dostępem w języku naturalnym}\\[2cm]
+}
+
+
+{\centering
+{\fontsize{28pt}{30pt}\selectfont \@title}\\[2cm]
+}
+
+{\centering
+\begin{tabular}{ccc}
+{\fontsize{16pt}{18pt}\selectfont AUTORZY:}
+& 
+\hspace{1.5cm}
+&
+{\fontsize{16pt}{18pt}\selectfont PROWADZĄCY ZAJĘCIA:}
+\\ [0.4cm]
+
+
+{\fontsize{14pt}{16pt}\selectfont \@authorOne}
+&
+\hspace{1.5cm}
+&
+{\fontsize{14pt}{16pt}\selectfont \@prowadzacy}
+\\ [0.4cm]
+
+
+{\fontsize{14pt}{16pt}\selectfont \@authorTwo}
+&
+\hspace{1.5cm}
+&
+
+\\ [0.4cm]
+
+
+\hspace{1.5cm}
+&
+\hspace{1.5cm}
+&
+\hspace{1.5cm}
+\\ [0.4cm]
+
+\hspace{1.5cm}
+&
+\hspace{1.5cm}
+&
+{\fontsize{16pt}{18pt}\selectfont OCENA PRACY:}
+\\ [0.4cm]
+
+\end{tabular}
+}
+
+
+\vspace{7cm}
+\hrule\vspace*{0.3cm}
+{\centering
+{\fontsize{16pt}{18pt}\selectfont \@date}\\[0cm]
+}
+%\ungaramond
+\normalfont
+ \cleardoublepage
+}
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%  Metadane dokumentu 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\title{Chatbot wspomagający obsługę klienta w sklepie internetowym}
+\authorOne{Krystian Lema 218453}
+\authorTwo{Bartosz Michalak 218481}
+\uczelnia{POLITECHNIKA WROCŁAWSKA}
+\wydzial{WYDZIAŁ ELEKTRONIKI}
+\prowadzacy{dr inż. Dariusz Banasiak, W4/K9}
+\date{WROCŁAW, 2019}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%                  Początek dokumentu 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{document}
+\maketitle
+
+\newpage
+
+\chapterstyle{noNumbered}
+\pagestyle{outer}
+\mbox{}\pdfbookmark[0]{Spis treści}{spisTresci.1}
+\tableofcontents*
+
+\newpage
+
+%\include{skroty} %skróty można sobie pominąć
+\chapterstyle{default}
+\include{rozdzial01}
+\include{rozdzial02}
+\include{rozdzial03}
+\include{rozdzial04}
+\include{bibliografia}
+
+ 
+\end{document}
