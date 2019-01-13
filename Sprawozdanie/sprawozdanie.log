@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.12.11)  8 JAN 2019 17:06
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.12.11)  9 JAN 2019 11:26
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1575,7 +1575,7 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 335.
 Here is how much of TeX's memory you used:
  15923 strings out of 493014
  225800 string characters out of 6133350
- 350176 words of memory out of 5000000
+ 350192 words of memory out of 5000000
  19174 multiletter control sequences out of 15000+600000
  75603 words of font info for 53 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -1593,7 +1593,7 @@ lmsy10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/tex-gyre/qtmb
 .pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/tex-gyre/qtmr.pfb><
 /usr/local/texlive/2016/texmf-dist/fonts/type1/public/tex-gyre/qtmri.pfb></usr/
 local/texlive/2016/texmf-dist/fonts/type1/public/txfonts/t1xtt.pfb>
-Output written on sprawozdanie.pdf (11 pages, 401615 bytes).
+Output written on sprawozdanie.pdf (11 pages, 401620 bytes).
 PDF statistics:
  240 PDF objects out of 1000 (max. 8388607)
  206 compressed objects within 3 object streams

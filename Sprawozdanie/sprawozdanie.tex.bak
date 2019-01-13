@@ -239,7 +239,7 @@
 {\fontsize{28pt}{30pt}\selectfont \@title}\\[2cm]
 }
 
-{\centering
+\begin{center}
 \begin{tabular}{ccc}
 {\fontsize{16pt}{18pt}\selectfont AUTORZY:}
 & 
@@ -280,7 +280,7 @@
 \\ [0.4cm]
 
 \end{tabular}
-}
+\end{center}
 
 
 \vspace{7cm}

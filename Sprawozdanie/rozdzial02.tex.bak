@@ -97,3 +97,11 @@ Format pliku to pytanie i odpowiedź w kolejnych liniach pliku.
 \end{figure}
 
 Na samym początku bot zaczyna dialog witając użytkownika i czekając na wprowadzenie tekstu. Dialog zapętlony jest aż do momentu kiedy użytkownik zakończy konwersacje jednym z definiowanych słów pożegnalnych (do widzenia, żegnam, koniec). Po wprowadzeniu tekstu przez użytkownika sprawdzane jest czy nie zakończył on konwersacji. Jeżeli tak, bot żegna się i program kończy działania. W przeciwnym wypadku bot analizuje wprowadzony przez użytkownika tekst i wybiera najlepszą odpowiedź. Gdy pewność odpowiedzi bota jest większa niż przyjęty próg $0.4$, odpowiedź zostaje wyświetlona. Dla ułatwienia testowania, z każdą odpowiedzią bota na końcu wyświetlana jest jego pewność jako wartość z przedziału ${\{0,1\}}$.
+
+\begin{figure}[ht]
+	{\centering
+		\includegraphics[width=0.9\linewidth]{rys/rys02/5}
+	\caption{Przykładowy dialog.}
+	}
+	\label{fig:bot5}
+\end{figure}
