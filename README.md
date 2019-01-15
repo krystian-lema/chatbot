@@ -19,3 +19,9 @@ To run this project, clone repository and run bot.py script:
 ```
     $ python3 bot.py
 ```
+
+To remove existing database and start from new learning remove db file:
+
+```
+    $ rm db.sqlite3
+```

@@ -9,11 +9,14 @@ user_display_name = 'Użytkownik'
 bot_low_confidence_answer = 'Przepraszam ale nie jestem w stanie odpowiedzieć na to pytanie.'
 bot_greetings = 'Witam! Jak mogę pomóc?'
 bot_bye_answer = 'Do widzenia. Dziękujemy za skorzystanie z naszych usług i zapraszamy ponownie!'
-bye_words = ['do widzenia', 'żegnam', 'zegnam', 'koniec']
+bye_words = ['do widzenia', 'żegnam', 'zegnam']
+
+trained = os.path.isfile('db.sqlite3')
 
 # Create chatbot, initialize logic adapters and filters
 bot = ChatBot(
         'Chatbot',
+        read_only=trained,
         logic_adapters=[
             "chatterbot.logic.MathematicalEvaluation",
             {
@@ -31,15 +34,14 @@ bot = ChatBot(
 )
 
 # Train bot from files
-bot.set_trainer(ListTrainer)
-for _file in os.listdir('train_files'):
-    chats = open('train_files/' + _file, 'r').readlines()
-    bot.train(chats)
+if not trained:
+    print("Bot is not trained. Let's use train files!")
+    bot.set_trainer(ListTrainer)
+    for _file in os.listdir('train_files'):
+        chats = open('train_files/' + _file, 'r').readlines()
+        bot.train(chats)
 
-# Train bot with corpus
-# bot.set_trainer(ChatterBotCorpusTrainer)
-# bot.train("chatterbot.corpus.english.greetings") # test train from coprups english.greetings
-
+# Check dialog loop
 continue_dialogue = True
 
 # Start of the conversation

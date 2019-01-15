@@ -1,4 +1,4 @@
-\babel@toc {polish}{}
+\select@language {polish}
 \contentsline {chapter}{\chapternumberline {1}Wst\IeC {\k e}p}{3}{chapter.1}
 \contentsline {section}{\numberline {1.1}Cel projektu}{3}{section.1.1}
 \contentsline {section}{\numberline {1.2}Za\IeC {\l }o\IeC {\.z}enia projektowe}{3}{section.1.2}
@@ -13,9 +13,13 @@
 \contentsline {subsection}{\numberline {2.3.3}Dialog bota z u\IeC {\.z}ytkownikiem}{8}{subsection.2.3.3}
 \contentsline {chapter}{\chapternumberline {3}Testowanie}{9}{chapter.3}
 \contentsline {section}{\numberline {3.1}Podstawowe testy dialogowe}{9}{section.3.1}
-\contentsline {section}{\numberline {3.2}Testy zestaw\IeC {\'o}w pyta\IeC {\'n}}{9}{section.3.2}
-\contentsline {section}{\numberline {3.3}Zwi\IeC {\k e}kszanie efektywno\IeC {\'s}ci bota poprzez zwi\IeC {\k e}kszenie bazy wiedzy}{9}{section.3.3}
-\contentsline {chapter}{\chapternumberline {4}Wnioski}{10}{chapter.4}
-\contentsline {section}{\numberline {4.1}Og\IeC {\'o}lne wnioski na temat dzia\IeC {\l }ania chatbota}{10}{section.4.1}
-\contentsline {section}{\numberline {4.2}Wp\IeC {\l }yw bazy wiedzy na skuteczno\IeC {\'s}\IeC {\'c} dzia\IeC {\l }ania}{10}{section.4.2}
-\contentsline {chapter}{Literatura}{11}{section*.2}
+\contentsline {subsection}{\numberline {3.1.1}Powitania}{9}{subsection.3.1.1}
+\contentsline {subsection}{\numberline {3.1.2}Po\IeC {\.z}egnania}{10}{subsection.3.1.2}
+\contentsline {section}{\numberline {3.2}Testy zestaw\IeC {\'o}w pyta\IeC {\'n}}{11}{section.3.2}
+\contentsline {subsection}{\numberline {3.2.1}Pytanie o form\IeC {\k e} dostawy}{11}{subsection.3.2.1}
+\contentsline {subsection}{\numberline {3.2.2}Pytanie o status przesy\IeC {\l }ki.}{13}{subsection.3.2.2}
+\contentsline {section}{\numberline {3.3}Zwi\IeC {\k e}kszanie efektywno\IeC {\'s}ci bota poprzez zwi\IeC {\k e}kszenie bazy wiedzy}{15}{section.3.3}
+\contentsline {chapter}{\chapternumberline {4}Wnioski}{16}{chapter.4}
+\contentsline {section}{\numberline {4.1}Og\IeC {\'o}lne wnioski na temat dzia\IeC {\l }ania chatbota}{16}{section.4.1}
+\contentsline {section}{\numberline {4.2}Wp\IeC {\l }yw bazy wiedzy na skuteczno\IeC {\'s}\IeC {\'c} dzia\IeC {\l }ania}{16}{section.4.2}
+\contentsline {chapter}{Literatura}{17}{section*.2}
